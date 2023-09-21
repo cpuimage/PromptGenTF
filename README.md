@@ -7,6 +7,7 @@ Super easy to use
 ```python
     from gpt2 import GPT2
     from gpt2_tokenizer import GPT2Tokenizer
+    from gpt2_causal_lm import GPT2CausalLMPreprocessor, GPT2CausalLM
     sequence_length = 128
     max_length = 1024
     seed = 123
